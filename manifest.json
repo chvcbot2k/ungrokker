@@ -1,9 +1,9 @@
 {
     "name": "Ungrokker",
     "description": "Hides posts from those that @ an AI model in the replies",
-    "version" "0.1",
+    "version": "0.1",
     "manifest_version": 3,
-    action: {
+    "action": {
     },
     "content_scripts": [
         {
@@ -13,6 +13,9 @@
                 "https://www.x.com/*"
             ]
         }
+    ],
+    "permissions": [
+        "activeTab",
+        "scripting"
     ]
-
 }
