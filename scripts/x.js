@@ -15,7 +15,8 @@ function hideGrokker() {
     // Filter by the grokkers
     Array.from(tweets).filter(tweet => {
         return tweet.querySelector('a[href="/grok"]') !== null
-        || tweet.querySelector('a[href="/gork"]') !== null;
+        || tweet.querySelector('a[href="/gork"]') !== null
+        || tweet.querySelector('a[href="/AskPerplexity"]') !== null;
     }).forEach(grokker => {
         console.log("found grokker, hiding");
         grokker.hidden = true;
