@@ -9,8 +9,8 @@
         {
             "js": ["scripts/x.js"],
             "matches": [
-                "https://www.twitter.com/*",
-                "https://www.x.com/*"
+                "*://*.twitter.com/*",
+                "*://*.x.com/*"
             ]
         }
     ],
